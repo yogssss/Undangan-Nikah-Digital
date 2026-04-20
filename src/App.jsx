@@ -54,7 +54,7 @@ export default function App() {
   const audioRef = useRef(null);
 
   // Link Google Calendar
-  const gcalUrl = "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Pernikahan+Yogi+%26+Ratna&dates=20261225T020000Z/20261225T070000Z&details=Turut+mengundang+Bapak/Ibu/Saudara/i+untuk+hadir+di+acara+pernikahan+kami.+Terima+kasih+atas+doa+dan+restunya.&location=Gedung+Serbaguna+Jakarta,+Jl.+Ahmad+Yani+No.+123,+Jakarta+Selatan";
+  const gcalUrl = "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Pernikahan+Gurur+%26+Dina&dates=20261225T020000Z/20261225T070000Z&details=Turut+mengundang+Bapak/Ibu/Saudara/i+untuk+hadir+di+acara+pernikahan+kami.+Terima+kasih+atas+doa+dan+restunya.&location=Gedung+Serbaguna+Jakarta,+Jl.+Ahmad+Yani+No.+123,+Jakarta+Selatan";
 
   // Mendapatkan nama tamu dari URL (Untuk Teks & QR Code)
   useEffect(() => {
@@ -115,7 +115,7 @@ export default function App() {
           <Heart className="w-12 h-12 text-rose-400 mx-auto fill-rose-400" />
         </div>
         <p className="tracking-[0.3em] text-stone-500 uppercase text-sm">The Wedding Of</p>
-        <h1 className="text-5xl md:text-7xl font-serif text-stone-800 italic">Yogi & Ratna</h1>
+        <h1 className="text-5xl md:text-7xl font-serif text-stone-800 italic">Gurur & Dina</h1>
         
         <div className="pt-12">
           <p className="text-stone-500 mb-2">Kepada Yth. Bapak/Ibu/Saudara/i</p>
@@ -158,7 +158,7 @@ export default function App() {
           </FadeInSection>
           
           <FadeInSection delay={400}>
-            <h1 className="text-6xl md:text-8xl font-serif italic mb-4 text-stone-900 drop-shadow-sm">Yogi & Ratna</h1>
+            <h1 className="text-6xl md:text-8xl font-serif italic mb-4 text-stone-900 drop-shadow-sm">Gurur & Dina</h1>
           </FadeInSection>
           
           <FadeInSection delay={600}>
@@ -217,7 +217,7 @@ export default function App() {
               <div className="w-48 h-48 rounded-full overflow-hidden mx-auto border-8 border-white shadow-xl">
                 <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=300" alt="Groom" className="w-full h-full object-cover" />
               </div>
-              <h2 className="text-3xl font-serif">Yogi Prayoga, S.Kom</h2>
+              <h2 className="text-3xl font-serif">Gurur Prayoga, S.Kom</h2>
               <p className="text-stone-500">Putra dari Bapak Fulan & Ibu Fulanah</p>
             </div>
           </FadeInSection>
@@ -228,7 +228,7 @@ export default function App() {
               <div className="w-48 h-48 rounded-full overflow-hidden mx-auto border-8 border-white shadow-xl">
                 <img src="https://images.unsplash.com/photo-1511117833452-4724f3d60065?auto=format&fit=crop&q=80&w=300" alt="Bride" className="w-full h-full object-cover" />
               </div>
-              <h2 className="text-3xl font-serif">Ratna Sari, S.E</h2>
+              <h2 className="text-3xl font-serif">Dina Sari, S.E</h2>
               <p className="text-stone-500">Putri dari Bapak Fulan & Ibu Fulanah</p>
             </div>
           </FadeInSection>
@@ -371,7 +371,7 @@ export default function App() {
                 <div className="p-6 bg-stone-50 rounded-2xl border border-stone-200 hover:border-rose-200 transition-colors">
                   <p className="text-sm font-bold text-stone-400 uppercase tracking-widest mb-2">Transfer Bank BCA</p>
                   <p className="text-2xl font-semibold mb-1">1234 5678 90</p>
-                  <p className="text-stone-600 italic">a.n Yogi Prayoga</p>
+                  <p className="text-stone-600 italic">a.n Gurur Prayoga</p>
                 </div>
                 <div className="p-6 bg-stone-50 rounded-2xl border border-stone-200 hover:border-rose-200 transition-colors">
                   <p className="text-sm font-bold text-stone-400 uppercase tracking-widest mb-2">Kirim Kado</p>
@@ -386,7 +386,7 @@ export default function App() {
       {/* Footer */}
       <footer className="py-16 text-center space-y-6 bg-stone-900 text-stone-400">
         <FadeInSection>
-          <h2 className="text-3xl font-serif italic text-white">Yogi & Ratna</h2>
+          <h2 className="text-3xl font-serif italic text-white">Gurur & Dina</h2>
           <p className="max-w-xs mx-auto text-sm italic mt-4">"Kami mengundang Anda untuk berbagi kebahagiaan dalam pernikahan kami."</p>
           <div className="pt-8 mt-8 border-t border-white/10">
             <p className="text-xs uppercase tracking-widest">Digital Invitation by Galeri Undangan</p>
