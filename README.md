@@ -1,3 +1,5 @@
+Buat dulu foldernya, isi folder yang tadi dibuat masukin semua folder dan file yang ada di atas!
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
