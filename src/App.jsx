@@ -389,7 +389,7 @@ export default function App() {
           <h2 className="text-3xl font-serif italic text-white">Gurur & Dina</h2>
           <p className="max-w-xs mx-auto text-sm italic mt-4">"Kami mengundang Anda untuk berbagi kebahagiaan dalam pernikahan kami."</p>
           <div className="pt-8 mt-8 border-t border-white/10">
-            <p className="text-xs uppercase tracking-widest">Digital Invitation by Galeri Undangan</p>
+            <p className="text-xs uppercase tracking-widest">Digital Invitation by Mohamad Gurur & Gemini</p>
           </div>
         </FadeInSection>
       </footer>
